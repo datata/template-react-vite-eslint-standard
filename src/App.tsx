@@ -1,23 +1,11 @@
+import UsersList from './components/UsersList/UsersList'
 import './index.css'
 
 function App () {
   return (
     <>
-      <div className="
-            flex
-            flex-col
-            h-screen
-            justify-center
-            items-center
-            text-3xl
-            font-bold
-            underline
-          "
-      >
-        <h1>
-          Template ready with eslint Standard & tailwind css
-        </h1>
-      </div>
+      <h1 className='flex justify-center mt-5 font-bold text-3xl'> Listado de usuarios RANDOM USER API</h1>
+      <UsersList />
     </>
   )
 }
